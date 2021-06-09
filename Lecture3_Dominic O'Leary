@@ -1,0 +1,11 @@
+Import UIKit
+
+class ViewController:
+        UIController  {
+
+var label:  UILabel + UILabel  ( )
+override func viewDidLoad( )  {
+  super.viewDidLoad( )
+  label.textAlignment = .center
+  }
+}
