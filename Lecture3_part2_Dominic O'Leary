@@ -1,0 +1,15 @@
+import UIKit
+
+class View Controller:
+    UI ViewController   {
+var label:  UILabel = UILabel( )
+
+override func viewDidLoad()  {   
+  super.viewDidLoad( )
+  label.text Alignment = .center
+  sayHello( )
+  }
+  func sayHello( ) {
+      print("Hello")
+      }
+  }
